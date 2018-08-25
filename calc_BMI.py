@@ -1,0 +1,6 @@
+name = input("Podaj swoje imię: ")
+print("Witaj " + name)
+weight = float(input("Podaj swoję wagę(kg): "))
+height = float(input("Podaj swój wzrost(m): "))
+BMI = float(weight/(height**2))
+print(name, ", Twoje BMI wynosi: ", round(BMI,3))
